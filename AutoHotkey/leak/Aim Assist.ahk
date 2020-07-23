@@ -4,8 +4,8 @@
 #KeyHistory 0
 ListLines Off
 Process, Priority, , A
-SetBatchLines, -1
-SetKeyDelay, -1, -1
+SetBatchLines, 0
+SetKeyDelay, 0, 0
 SetMouseDelay, -1
 SetDefaultMouseSpeed, 0
 SetWinDelay, -1
@@ -21,7 +21,7 @@ CoordMode, Pixel, Screen
 MidX := A_ScreenWidth / 2 
 MidY := A_ScreenHeight / 2 
 Triggerbot = 0 
-Sense = 7
+Sense = 8
 FirstPairX := floor(MidX - 100)
 FirstPairY := floor(MidY - 100)
 SecondPairX := floor(MidX + 100)
